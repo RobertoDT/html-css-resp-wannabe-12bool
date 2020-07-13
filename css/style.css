@@ -1,0 +1,42 @@
+.titolo{
+  margin: 100px 0 20px 0;
+  font-size: 40px;
+}
+
+.sottotitolo{
+  margin: 20px 0;
+}
+
+h2, h3, p{
+  text-align: center;
+}
+
+.maps{
+  width: 200px;
+}
+
+.screen{
+  width: 300px;
+}
+
+.wrapper{
+  background-color: #F9F9F9;
+  margin-top: 100px;
+}
+
+.middle-icon{
+  width: 50%;
+  margin-left: 25%;
+}
+
+.profile{
+  width: 250px;
+  margin-left: 40%;
+  background-color: #428BCA;
+  border-radius: 50%;
+  padding: 20px;
+}
+
+hr{
+  margin: 10px 0 50px 0;
+}
