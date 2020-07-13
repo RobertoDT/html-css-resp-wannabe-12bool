@@ -42,6 +42,11 @@ hr{
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px){
+
+  .para{
+    margin: 0 30px;
+  }
+
   .tre{
     margin-left: 38%;
     margin-top: 50px;
@@ -52,7 +57,11 @@ hr{
     float: left;
   }
 
-  hr{
+  .bottom-icon{
+    margin-left: 0;
+  }
+
+  hr {
     display: none;
   }
 }
