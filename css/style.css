@@ -12,11 +12,11 @@ h2, h3, p{
 }
 
 .maps{
-  width: 200px;
+  max-width: 200px;
 }
 
 .screen{
-  width: 300px;
+  max-width: 300px;
 }
 
 .wrapper{
@@ -25,12 +25,12 @@ h2, h3, p{
 }
 
 .middle-icon{
-  width: 50%;
+  width: 200px;
   margin-left: 25%;
 }
 
-.profile{
-  width: 250px;
+.bottom-icon{
+  max-width: 250px;
   margin-left: 40%;
   background-color: #428BCA;
   border-radius: 50%;
@@ -39,4 +39,20 @@ h2, h3, p{
 
 hr{
   margin: 10px 0 50px 0;
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px){
+  .tre{
+    margin-left: 38%;
+    margin-top: 50px;
+  }
+
+  .bottom{
+    width: 33%;
+    float: left;
+  }
+
+  hr{
+    display: none;
+  }
 }
