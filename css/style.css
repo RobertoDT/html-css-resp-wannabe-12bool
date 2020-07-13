@@ -1,5 +1,6 @@
 .titolo{
-  margin: 100px 0 20px 0;
+  margin: 100px 0 0px 0;
+  padding-bottom: 30px;
   font-size: 40px;
 }
 
@@ -13,10 +14,12 @@ h2, h3, p{
 
 .maps{
   max-width: 200px;
+  margin-left: 33%;
 }
 
 .screen{
-  max-width: 300px;
+  max-width: 330px;
+  margin-left: 25%;
 }
 
 .wrapper{
@@ -55,6 +58,7 @@ hr{
   .bottom{
     width: 33%;
     float: left;
+    background-color: #F9F9F9;
   }
 
   .bottom-icon{
@@ -63,5 +67,21 @@ hr{
 
   hr {
     display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+
+  .screen{
+    margin-top: 50px;
+  }
+
+  .middle-icon{
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+
+  .bottom-icon{
+    margin-left: 30%;
   }
 }
